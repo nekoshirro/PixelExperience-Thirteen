@@ -18,6 +18,6 @@
     <remove-project name="vendor_aosp"/>
     
     <!-- Custom Repository -->
-    <project path="vendor/aosp" name="platform_vendor_aosp" remote="neko-github" revision="thirteen"/>
+    <project path="vendor/aosp" name="platform_vendor_aosp" remote="neko-github" revision="thirteen-plus"/>
 
 </manifest>
