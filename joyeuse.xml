@@ -18,10 +18,12 @@
 
     <!-- Remove Original Project -->
     <remove-project name="vendor_aosp"/>
-    <<remove-project name="frameworks_base"/>
-    
+    <remove-project name="frameworks_base"/>
+    <remove-project name="packages_resources_devicesettings"/>    
+
     <!-- Custom Repository -->
     <project path="vendor/aosp" name="platform_vendor_aosp" remote="neko-github" revision="thirteen-plus"/>
     <project path="frameworks/base" name="platform_frameworks_base" remote="neko-github" revision="thirteen-plus"/>
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-20.0"/>
 
 </manifest>
