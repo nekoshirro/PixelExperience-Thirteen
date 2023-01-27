@@ -17,5 +17,6 @@
     <!-- Remove Original Project -->
     <remove-project name="vendor_aosp"/>
     <remove-project name="packages_resources_devicesettings"/>    
+    <remove-project name="hardware_qcom-caf_sdm845_display"/>
 
 </manifest>
