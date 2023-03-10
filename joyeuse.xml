@@ -21,6 +21,6 @@
     <!-- Custom Repositories -->
     <project path="vendor/aosp" name="nekoshirro/android_vendor_aosp" remote="github" revision="thirteen-plus"/>
     <project path="frameworks/base" name="nekoshirro/android_frameworks_base" remote="github" revision="thirteen-plus"/>
-    <project path="vendor/xiaomi/joyeuse-gcam" name="nekoshirro/vendor_xiaomi_joyeuse-gcam" remote="github" revision="master"/>
+    <project path="vendor/xiaomi/miatoll-gcam" name="vendor_xiaomi_miatoll-gcam" remote="pixel-devices-blobs" revision="thirteen"/>
 
 </manifest>
