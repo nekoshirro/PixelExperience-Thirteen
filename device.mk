@@ -22,6 +22,9 @@ PRODUCT_PRODUCT_VNDK_VERSION := current
 # Enforce java interfaces of product partition
 PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
 
+# Skip checking kernel requirements
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
+
 # API
 PRODUCT_SHIPPING_API_LEVEL := 29
 

@@ -129,6 +129,9 @@ BOARD_KERNEL_CMDLINE += swiotlb=1
 BOARD_KERNEL_CMDLINE += video=vfb:640x400,bpp=32,memsize=3072000
 BOARD_KERNEL_CMDLINE += kpti=off
 
+BOARD_KERNEL_VERSION := 4.14.307
+BOARD_KERNEL_CONFIG_FILE := $(shell pwd)/kernel/xiaomi/sm6250/arch/arm64/configs/cust_defconfig
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := joyeuse
 
