@@ -17,10 +17,22 @@
     <!-- Remove Original Project -->
     <remove-project name="vendor_aosp"/>
     <remove-project name="frameworks_base"/>
+    <remove-project name="frameworks_av"/>
+    <remove-project name="hardware_interfaces"/>
+    <remove-project name="bionic"/>
+    <remove-project name="build_soong"/>
   
     <!-- Custom Repositories -->
     <project path="vendor/aosp" name="nekoshirro/android_vendor_aosp" remote="github" revision="thirteen-plus"/>
     <project path="frameworks/base" name="nekoshirro/android_frameworks_base" remote="github" revision="thirteen-plus"/>
     <project path="vendor/xiaomi/miatoll-gcam" name="vendor_xiaomi_miatoll-gcam" remote="pixel-devices-blobs" revision="thirteen"/>
+    <project path="frameworks/av" name="nekoshirro/android_frameworks_av" remote="github" revision="thirteen-plus"/>
+    <project path="hardware/interfaces" name="nekoshirro/android_hardware_interfaces" remote="github" revision="thirteen"/>
+    <project path="bionic" name="nekoshirro/android_bionic" remote="github" revision="thirteen"/>
+    <project path="build/soong" name="nekoshirro/android_build_soong" remote="github" >
+      <linkfile src="root.bp" dest="Android.bp" />
+      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
 
 </manifest>
