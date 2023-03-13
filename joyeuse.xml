@@ -29,7 +29,7 @@
     <project path="frameworks/av" name="nekoshirro/android_frameworks_av" remote="github" revision="thirteen-plus"/>
     <project path="hardware/interfaces" name="nekoshirro/android_hardware_interfaces" remote="github" revision="thirteen"/>
     <project path="bionic" name="nekoshirro/android_bionic" remote="github" revision="thirteen"/>
-    <project path="build/soong" name="nekoshirro/android_build_soong" remote="github" >
+    <project path="build/soong" name="nekoshirro/android_build_soong" remote="github" revision="thirteen" >
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
